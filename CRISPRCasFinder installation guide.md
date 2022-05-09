@@ -51,6 +51,7 @@ you may have to wait an hour or so until the installation is completed.
 11. test the install program
 when the installation is complete, test the install program using following command (run in CRISPRCasFinder folder)
 > perl CRISPRCasFinder.pl -in install_test/sequence.fasta -cas
+
 If some error happen, try resolve it by yourself first or ask me for assistant
 
 
