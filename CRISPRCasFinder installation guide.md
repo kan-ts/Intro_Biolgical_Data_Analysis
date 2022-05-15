@@ -30,6 +30,14 @@ unzip CRISPRCasFinder.zip
 ```
 sudo apt install macsyfinder
 ```
+**If step 5 is not working,i.e. no package available do install from source**
+
+Download the Macsyfinder version 1.0.5 from [here](https://github.com/gem-pasteur/macsyfinder/tree/macsyfinder-1.0.5)
+Extract the zip and proceed with the installation as recommend in its readme.md file with slight modification which are
+* replace version (macsyfinder-x.x) in to macsyfinder-1.0.5
+* replace "python" with "python2.7", you may need to install python2.7 beforehand (using sudo apt install python2.7
+* when run the test in step 4 (macsyfinder/readme.md), you may see lot of errors, don't worry, It may work just fine. just proeed to step 6 of this guide.
+
 
 6. try using macsyfinder
 ```
@@ -38,8 +46,8 @@ sudo apt install macsyfinder
 
 7. add Macsyfinder directory to profile
 ```
-export MACSY_HOME=/usr/bin/ >> ~/./profile
-source ~/./profile
+export MACSY_HOME=/usr/bin/ >> ~/.profile
+source ~/.profile
 ```
 
 ## Install CRISPRCasFinder.sh
@@ -59,7 +67,7 @@ bash installer_UBUNTU.sh
 source ~/.profile
 ```
 
-you may have to wait an hour or so until the installation is completed.
+you may have to wait hours or so until the installation is completed.
 
 11. test the install program
 when the installation is complete, test the install program using following command (run in CRISPRCasFinder folder)
